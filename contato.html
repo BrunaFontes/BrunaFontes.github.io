@@ -1,0 +1,65 @@
+<!Doctype Html>
+<html>
+	<head>
+	<html lang="pt-br">
+			<meta charset="UTF-8">
+		
+		<title> Bruna's Violões</title>
+		<!-- <link href="../css/estilo.css" rel="stylesheet">*-->
+		<style type="text/css">
+			@import url("css/estilo.css");
+
+			.home{
+				font: bold 16px "Century Gothic", sans-serif;
+			}			
+		</style>	
+
+		<script src="../js/script.js"></script>
+	</head>
+<body>
+<div id="site">
+	
+	<h1>Linguagens de Programação</h1>
+		<div id="menu">
+		
+		<ul>
+		<li><a href="index.html"> Home </a> </li>
+		<li><a href="contato.html" class="home"> Contato </a> </li>
+		
+		<ul>
+		
+		</div>
+	<div id="formulario" class="hist">
+		<center>
+		<h2> Fale Conosco</h2>
+		<form id="formu" name="formu">
+			<label>Nome Completo:</label>
+			<br>
+			<input type="text" name="nome" onkeypress="return ApenasLetras(event)" id="nome">
+			<br><br>
+			<label>Data de Nascimento:</label>
+			<br>
+			<input type="date" maxlength="10" name="date" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" min="1900-01-01" max="2014-02-18" id="data"/>
+			<br><br>
+			<label>Email:</label>
+			<br>
+			<input type="email" name="email" id="email" />
+			<br><br>
+			<label>Assunto:</label>
+			<br>
+			<input type="text" name="assunto" id="assunto">
+			<br><br>
+			<label>Mensagem:</label>
+			<br>
+			<textarea name="mensagem" rows="15" cols="100" data-limit-rows="true" id="mensagem" ></textarea>
+			<br>
+			<input type="submit" name="limpar" class="btn-enviar" value="Cancelar" onclick="confirmarCancelar()">
+			<input type="submit" name="enviar" class="btn-limpar" value="Enviar" onclick="formuValida()">
+			</center>
+		</form>	
+	</div>
+	
+	
+</div>
+</body>
+</html>

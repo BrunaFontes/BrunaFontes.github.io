@@ -1,0 +1,333 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	background:#eeeeee;
+	padding:5px;
+	font: 12px "Century Gothic", sans-serif;
+}	
+
+h1{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:35px;
+	text-align:center;
+	background-color:#ff7f00;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+	color: #eeeeee;
+}
+
+a{
+	text-decoration:none;
+	color: #eeeeee;
+}
+
+p{
+	color: black;
+	font-size:15px;
+	padding: 10px 10px;
+	text-align: justify;
+}
+
+#meio{
+	width: 900px;
+	height: 416px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 90px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meio h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioC{
+	width: 900px;
+	height: 530x;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 55px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioC h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioJava{
+	width: 900px;
+	height: 600px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 50px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioJava h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioPhp{
+	width: 900px;
+	height: 1900px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 50px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioPhp h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioOC{
+	width: 900px;
+	height: 435px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 85px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioOC h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioCS{
+	width: 900px;
+	height: 240px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 175px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioCS h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#meioR{
+	width: 900px;
+	height: 260px;
+	background-color: #eeeeee;
+	position: absolute;	
+	left:50%;
+	margin-top: 175px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#meioR h2{
+	margin-top:-13px;
+	padding: 10px 10px;
+	font-size:25px;
+	text-align:center;
+	color: #eeeeee;
+}
+
+#topo img{
+	position:absolute;
+	left:50%;
+	margin-top: 90px;
+	margin-left:-450px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#topo{
+	background:#eeeeee;
+	height:153px;
+	border-radius:13px;
+	width:990px;
+
+}
+#menu{
+	background:#ff7f00;
+	border-radius: 17px;
+	margin-top:5px;
+	padding:10px;
+	margin-bottom:5px;
+		
+     
+}
+#menu ul{
+	background:#ff7f00;
+	
+	overflow:auto;
+	width:700px;
+	margin:0 auto;
+
+	
+}
+#menu ul li{
+	display:inline;
+
+	
+}
+#menu ul li a{
+	color:#eeeeee;
+	font-size:16px;
+	text-decoration:none;
+	float:left;
+	padding:13px 27px;
+	border-radius: 11px;	
+}
+
+#menu ul li a:hover{
+	background:#eeeeee;
+	color:#290101;
+	font: bold 16px "Century Gothic", sans-serif;
+}
+
+.c h2{
+	background-color:#6c318d;
+}
+
+.python h2{
+	background-color:#34a4d6;	
+}
+
+.js h2{
+	background-color:#f5bc27;
+}
+
+.csharp h2{
+	background-color:#92bf3e;	
+}
+
+.java h2{
+	background-color:#e5212b;	
+}
+
+.cplus h2{
+	background-color:#13969e;
+}
+
+.php h2{
+	background-color:#285278;	
+}
+
+.ruby h2{
+	background-color:#ba2430;	
+}
+#formulario{
+	background:#d6d6d6;
+	height:850px;
+	width:990px;
+	margin-top:5px;
+	float:left;
+	margin-bottom:5px;
+	border-radius:13px;
+}
+
+#formulario form{
+	margin-top:2%;
+	margin-left:1%;
+	font: 17px "Century Gothic", sans-serif;
+}
+
+#formulario input{
+	width:720px;
+	height:30px;
+	font: 15px "Century Gothic", sans-serif;
+}
+
+#formulario input,textarea{
+	border-radius:5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font: 15px "Century Gothic", sans-serif;
+	padding: 5px 5px;
+}
+
+#formulario .btn-enviar{
+	font: bold 15px "Century Gothic", sans-serif;
+	color:#eeeeee;
+	background-color:#ff7f00;
+	width:350px;
+}
+
+#formulario .btn-limpar{
+	position:center;
+	font: bold 15px "Century Gothic", sans-serif;
+	color:#eeeeee;
+	background-color:#ff7f00;
+	width:350px;
+	margin-left:17px;
+	
+}
+
+#formulario .btn-enviar:hover{
+	background:#b6b5b5;
+	color:#ff7f00;
+}
+
+#formulario .btn-limpar:hover{
+	background:#b6b5b5;
+	color:#ff7f00;
+}
+.botao{
+	margin:0px;
+	padding:0px;
+	
+	margin-top:174%;
+}
+
+.botao a{  
+	font: bold 15px "Century Gothic", sans-serif;
+	text-decoration: none;
+	text-align:center;	
+	color:#290101;
+	width:100%;  
+	height:50px;	
+	display:block;	
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+}
+#site{
+	background-color:#eeeeee; 
+	width:990px;
+	margin:auto;
+	padding:5px;
+}
+
+
